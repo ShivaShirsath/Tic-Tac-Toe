@@ -10,13 +10,13 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'O X Y',
+      title: 'Tic Tac Toe',
       theme: ThemeData(
         primarySwatch: Colors.orange,
       ),
       //darkTheme: ThemeData.dark(),
       home: const MyHomePage(
-        title: 'Home Page',
+        title: 'O X Y Home Page',
       ),
     );
   }
